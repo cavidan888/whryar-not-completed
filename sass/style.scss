@@ -1,0 +1,33 @@
+$mainColor:#151515;
+$mainWidth:1400px;
+$mainMargin:10px;
+$mainForeColor:#aaa;
+$mainIconColor:gold;
+$mainPad: 10px 20px;
+$mainFont:'Roboto', sans-serif;
+body{
+margin:0;
+padding:0;
+}
+
+
+.active{
+	
+	background-color:orange;
+}
+
+
+.transition{
+    transition:all .3s ease;
+}
+
+.clear{
+    clear: both;
+}
+
+@import "lib/topBar";
+@import "lib/grid";
+@import "lib/navBar";
+@import "lib/slider";
+@import "lib/welcome";
+@import "lib/services";

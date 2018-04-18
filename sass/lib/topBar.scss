@@ -1,0 +1,38 @@
+
+#topBar{
+	padding-top:15px;
+	background-color:$mainColor;
+
+.container{
+	.row{
+		.col-4{
+
+			svg{
+				margin:0;
+				padding:0;
+				color:$mainIconColor;
+			}
+
+			span{
+				margin:0;
+				padding:0;
+				color:$mainForeColor;
+             
+               
+			}
+
+
+             &:nth-child(3){
+
+             	text-align:right;
+             }
+
+             &:nth-child(3)>span:nth-child(1){
+
+             	color:$mainIconColor;
+             }
+
+		}
+	}
+}
+}

@@ -1,0 +1,63 @@
+#navbar{
+ 
+  
+   
+   .container{
+
+      .row{
+
+      	  .col-6{
+
+    
+      	  }
+
+      	  .logo{
+
+      	  	  img{
+
+      	  	  	height:50px;
+      	  	  	padding:8px;
+      	  	  }
+
+      	  }
+
+
+      	  .nav-bar{
+
+      	  	 ul li{
+
+      	  	 	list-style: none;
+      	  	 	display: inline-block;
+      	  	 	margin-left:30px;
+      	  	 	padding:$mainPad;
+      	  	 	font-weight: bold;
+      	  	 	font-family:$mainFont;
+      	  	 	box-sizing: border-box;
+
+      	  	 	&:nth-child(1){
+
+      	  	 		
+      	  	 		margin: 0;
+
+      	  	 	}
+
+
+      	  	 	&:hover{
+                    
+      	  	 		border:1px solid black;
+
+      	  	 	}
+      	  	 }
+      	  }
+      }
+
+   }	
+
+}
+
+
+
+.clear{
+
+	clear:both;
+}

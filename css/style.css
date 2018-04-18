@@ -1,0 +1,372 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.active {
+  background-color: orange;
+}
+
+.transition {
+  transition: all .3s ease;
+}
+
+.clear {
+  clear: both;
+}
+
+#topBar {
+  padding-top: 15px;
+  background-color: #151515;
+}
+#topBar .container .row .col-4 svg {
+  margin: 0;
+  padding: 0;
+  color: gold;
+}
+#topBar .container .row .col-4 span {
+  margin: 0;
+  padding: 0;
+  color: #aaa;
+}
+#topBar .container .row .col-4:nth-child(3) {
+  text-align: right;
+}
+#topBar .container .row .col-4:nth-child(3) > span:nth-child(1) {
+  color: gold;
+}
+
+.container {
+  width: 1400px;
+  margin: 0 auto;
+  position: relative;
+  height: auto;
+}
+
+.container-fluid {
+  width: 100%;
+}
+
+.section-padding {
+  padding: 50px 0px;
+}
+
+.inner-padding {
+  padding: 15px 0px;
+}
+
+.row {
+  position: relative;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.clear {
+  clear: both;
+}
+
+div[class^="col-"] {
+  float: left;
+  margin: 10px;
+  position: relative;
+}
+
+.col-1 {
+  width: calc((100%/12)*1 - (2*10px));
+}
+
+.col-2 {
+  width: calc((100%/12)*2 - (2*10px));
+}
+
+.col-3 {
+  width: calc((100%/12)*3 - (2*10px));
+}
+
+.col-4 {
+  width: calc((100%/12)*4 - (2*10px));
+}
+
+.col-5 {
+  width: calc((100%/12)*5 - (2*10px));
+}
+
+.col-6 {
+  width: calc((100%/12)*6 - (2*10px));
+}
+
+.col-7 {
+  width: calc((100%/12)*7 - (2*10px));
+}
+
+.col-8 {
+  width: calc((100%/12)*8 - (2*10px));
+}
+
+.col-9 {
+  width: calc((100%/12)*9 - (2*10px));
+}
+
+.col-10 {
+  width: calc((100%/12)*10 - (2*10px));
+}
+
+.col-11 {
+  width: calc((100%/12)*11 - (2*10px));
+}
+
+.col-12 {
+  width: calc((100%/12)*12 - (2*10px));
+}
+
+#navbar .container .row .logo img {
+  height: 50px;
+  padding: 8px;
+}
+#navbar .container .row .nav-bar ul li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 30px;
+  padding: 10px 20px;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+#navbar .container .row .nav-bar ul li:nth-child(1) {
+  margin: 0;
+}
+#navbar .container .row .nav-bar ul li:hover {
+  border: 1px solid black;
+}
+
+.clear {
+  clear: both;
+}
+
+#slider {
+  height: 400px;
+  background-image: url("../img/download.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 100px 0;
+}
+#slider .sliderContent {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  position: absolute;
+  left: 110px;
+}
+#slider .sliderContent h3 {
+  font-size: 20px;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 35px;
+}
+#slider .sliderContent h1 {
+  font-size: 60px;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+}
+#slider .sliderContent h1 span {
+  color: red;
+  margin: 0;
+  padding: 0;
+}
+#slider .sliderContent h1:nth-child(2) {
+  margin-bottom: 20px;
+}
+#slider .sliderContent h1:nth-child(3) {
+  margin-bottom: 90px;
+}
+#slider .sliderContent button {
+  padding: 12px 20px;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  border: 3px solid #fff;
+  background-color: transparent;
+  transition: 0.5s ease;
+}
+#slider .sliderContent button:hover {
+  background-color: #ed1c24;
+  transition: 0.5s ease;
+  border-color: #ed1c24;
+}
+
+#welcome {
+  height: 280px;
+  background-color: white;
+  font-family: "Roboto", sans-serif;
+  padding: 60px 0;
+}
+#welcome .topContent {
+  width: 500px;
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+  margin-bottom: 60px;
+}
+#welcome .topContent h1::after {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 37px;
+  height: 1px;
+  margin: -20px auto;
+  content: '';
+  opacity: 1;
+  background: #333;
+}
+#welcome .contentWelcome {
+  position: relative;
+  width: 344px;
+  height: 134px;
+  color: white;
+  height: auto;
+  box-sizing: border-box;
+  text-align: justify;
+  margin: 0 auto;
+}
+#welcome .contentWelcome h4 {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 1px;
+  color: black;
+}
+#welcome .contentWelcome h4 span {
+  position: absolute;
+  top: 13px;
+  left: 275px;
+  font-size: 44px;
+  margin: 0;
+  padding: 0;
+  color: #ed1c24;
+}
+#welcome .contentWelcome p {
+  font-size: 13px;
+  font-weight: 400px;
+  letter-spacing: .5px;
+  line-height: 20px;
+  color: #747474;
+}
+
+#serviceSec {
+  background-color: #f9f9f9;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+#serviceSec .imgBox {
+  width: 90%;
+  height: 560px;
+  background-image: url("../img/team.jpg");
+  background-repeat: no-repeat;
+  background-position: -330px center;
+}
+#serviceSec .col-7 {
+  margin: 0;
+  padding: 0;
+  padding: 60px 0;
+}
+#serviceSec .col-7 h1 {
+  font-size: 30px;
+  line-height: 40px;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+}
+#serviceSec .col-7 p {
+  margin: 0;
+  padding: 0;
+  margin-top: 10px;
+  color: #8f8f8f;
+  margin-bottom: 30px;
+}
+#serviceSec .row2 {
+  margin-bottom: 150px;
+}
+#serviceSec .row2 .col-6 {
+  position: relative;
+  height: auto;
+}
+#serviceSec .row2 .col-6 .iconBox {
+  width: 60px;
+  display: inline-block;
+  position: absolute;
+}
+#serviceSec .row2 .col-6 .iconBox svg {
+  font-size: 45px;
+  color: red;
+}
+#serviceSec .row2 .col-6 h2 {
+  margin: 0;
+  padding: 0;
+}
+#serviceSec .row2 .col-6 .textBox {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 80px;
+}
+#serviceSec .row2 .col-6 .textBox p {
+  margin: 0;
+  padding: 0;
+  line-height: 24px;
+  font-weight: 400px;
+}
+#serviceSec .row2 .col-6 .iconTwo {
+  width: 40px;
+}
+#serviceSec .row2 .col-6 .textTwo {
+  left: 50px;
+}
+#serviceSec .row3 .col-6 {
+  position: relative;
+  height: auto;
+}
+#serviceSec .row3 .col-6 .iconBox {
+  width: 60px;
+  display: inline-block;
+  position: absolute;
+}
+#serviceSec .row3 .col-6 .iconBox svg {
+  font-size: 45px;
+  color: red;
+}
+#serviceSec .row3 .col-6 h2 {
+  margin: 0;
+  padding: 0;
+}
+#serviceSec .row3 .col-6 .textBox {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 80px;
+}
+#serviceSec .row3 .col-6 .textBox p {
+  margin: 0;
+  padding: 0;
+  line-height: 24px;
+  font-weight: 400px;
+}
+#serviceSec .row3 .col-6 .iconTwo {
+  width: 60px;
+  left: -12px;
+}
+#serviceSec .row3 .col-6 .textTwo {
+  left: 50px;
+}

@@ -1,0 +1,180 @@
+#serviceSec{
+	
+	background-color:rgb(249, 249, 249);
+    font-family:$mainFont;
+    margin:0;
+    padding:0;
+
+	.imgBox{
+
+		width:90%;
+        height:560px;
+        background-image: url('../img/team.jpg');
+        background-repeat: no-repeat;
+        background-position: -330px center;
+	}
+
+	.col-7{
+
+		margin:0;
+		padding:0;
+		padding:60px 0;
+		
+
+		h1{
+
+			font-size:30px;
+			line-height:40px;
+			text-transform: uppercase;
+			margin:0;
+			padding:0;
+		}
+
+
+		p{
+
+			margin:0;
+			padding:0;
+			margin-top:10px;
+			color:rgb(143, 143, 143);
+			margin-bottom:30px;
+		}
+	}
+
+
+	.row2{
+ 
+ margin-bottom:150px;
+		.col-6{
+
+			position: relative;
+			height:auto;
+
+
+            .iconBox{
+
+            	width:60px;
+                display: inline-block;
+                position: absolute;
+                
+
+                 
+
+                svg{
+
+                	font-size:45px;
+                	color:red;
+                }
+            }
+  
+			h2{
+              
+                margin:0;
+                padding:0;
+               
+			}
+
+
+			.textBox{
+
+				
+			    display: inline-block;
+			    position: absolute;
+                top:0;
+                left:80px;
+
+               
+
+
+
+                p{
+
+                	margin:0;
+                	padding:0;
+                	line-height:24px;
+                	font-weight:400px;
+
+                }
+			}
+
+			.iconTwo{
+
+				 width: 40px;
+                   
+
+			}
+
+			.textTwo{
+
+				 left:50px;
+			}
+		}
+	}
+
+	.row3{
+
+		.col-6{
+
+			position: relative;
+			height:auto;
+
+
+            .iconBox{
+
+            	
+            	width:60px;
+                display: inline-block;
+                position: absolute;
+
+                 
+
+                svg{
+
+                	font-size:45px;
+                	color:red;
+                }
+            }
+  
+			h2{
+              
+                margin:0;
+                padding:0;
+               
+			}
+
+
+			.textBox{
+
+				
+			    display: inline-block;
+			    position: absolute;
+                top:0;
+                left:80px;
+
+               
+
+
+
+                p{
+
+                	margin:0;
+                	padding:0;
+                	line-height:24px;
+                	font-weight:400px;
+
+                }
+			}
+
+			.iconTwo{
+
+			     width: 60px;
+                 left:-12px;
+			}
+
+			.textTwo{
+
+				 left:50px;
+			}
+		}
+	}
+}
